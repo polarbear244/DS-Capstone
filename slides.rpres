@@ -1,0 +1,58 @@
+---
+title: "Predictive Text Model: Next-Word Prediction App"
+author: "polarbear244"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+
+## Problem & Opportunity
+
+- Text prediction powers modern communication tools.
+- From messaging apps to search engines, smart autocomplete makes writing faster and easier.
+- Our goal: develop a lightweight predictive text model using R and deploy it with a user-friendly Shiny interface.
+
+---
+
+## Algorithm Overview
+
+- Model Type: Bigram-based word prediction
+- Trained on: Cleaned corpus from Twitter/news text
+- Preprocessing:
+  - Tokenization
+  - Lowercasing and cleaning
+- Prediction:
+  - Input phrase is matched to the final word.
+  - Highest probability bigram (prefix → next word) returned.
+- Future upgrades: Trigram, LSTM, or Transformer-based NLP
+
+---
+
+## App Demo & Instructions
+
+- Hosted at: https://polarbear244.shinyapps.io/project-1
+- How it works:
+  1. Enter a phrase into the text box.
+  2. Click Predict.
+  3. App outputs the most likely next word.
+- Use cases:
+  - Writing assistance
+  - Language learning
+  - Tweet composition aid
+
+---
+
+## Business Value
+
+- Efficient typing improves productivity.
+- Customizable for any domain (medical, legal, social media).
+- Scalable using more advanced models and deployment methods.
+- Future potential: plug-in autocomplete for CMS platforms, mobile keyboards.
+
+---
+
+## Why Me?
+
+- I built the model, designed the app, and deployed it.
+- Full-stack R-based development and publishing.
+- Ready to extend the product and lead the technical roadmap.
+- Committed to making predictive typing smarter and more intuitive.
